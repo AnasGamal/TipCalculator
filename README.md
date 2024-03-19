@@ -35,7 +35,7 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='https://github.com/AnasGamal/TipCalculator/blob/main/Kapture%202024-03-19%20at%2001.55.31.gif?raw=true' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/AnasGamal/TipCalculator/blob/main/Kapture%202024-03-19%20at%2018.30.26.gif?raw=true' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with Kap
 
