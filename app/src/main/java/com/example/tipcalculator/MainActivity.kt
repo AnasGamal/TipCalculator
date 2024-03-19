@@ -43,7 +43,8 @@ class MainActivity : Activity() {
     private fun updateTipAmount(billAmountText: String, tipPercentage: Float, tipResultTextView: TextView) {
         val billAmount = billAmountText.toDoubleOrNull() ?: 0.0
         val tipAmount = calculateTip(billAmount, tipPercentage.toDouble())
-        tipResultTextView.text = "Tip Amount: ${"%.2f".format(tipAmount)}"
+        val totalAmount = billAmount + tipAmount
+        tipResultTextView.text = "Tip Amount: ${"%.2f".format(tipAmount)}\nTotal Amount: ${"%.2f".format(totalAmount)}"
     }
 
     private fun calculateTip(billAmount: Double, tipPercentage: Double): Double {
